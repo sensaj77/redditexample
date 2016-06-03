@@ -14,15 +14,6 @@ let noQueryKeyHistory = createHashHistory({
   queryKey: false
 });
 
-/*export default class Root extends Component {
-  render() {
-    return (
-      <Provider store={redditStore}>
-        <AsyncApp />
-      </Provider>
-    )
-  }
-}*/
 
 export default class Root extends React.Component {
   static propTypes = {
